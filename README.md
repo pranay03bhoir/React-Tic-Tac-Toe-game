@@ -1,4 +1,4 @@
 # React-Tic-Tac-Toe-game
-A game of tic-tac-toe made in react js library.
+A game of tic-tac-toe made in react js library.<br></br>
 Successfully deployed the web-app on vercel.
 link -> [https://pranay-react-tic-tac-toe-game.vercel.app/]
