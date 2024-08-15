@@ -1,9 +1,9 @@
-import Player from "./components/player";
-import GameBoard from "./components/GameBoard";
+import Player from "./components/player.jsx";
+import GameBoard from "./components/GameBoard.jsx";
 import { useState } from "react";
-import Log from "./components/Log";
-import { WINNING_COMBINATIONS } from "./winning-combinations";
-import GameOver from "./components/GameOver";
+import Log from "./components/Log.jsx";
+import { WINNING_COMBINATIONS } from "./winning-combinations.js";
+import GameOver from "./components/GameOver.jsx";
 
 const initialGameBoard = [
   [null, null, null],
@@ -68,7 +68,7 @@ function App() {
       };
     });
   };
-  const gameBoard = deriveGameBoard(gameTurns)
+  const gameBoard = deriveGameBoard(gameTurns);
   const winner = deriveWinner(gameBoard, players);
   const hasDraw = gameTurns.length === 9 && !winner;
 
